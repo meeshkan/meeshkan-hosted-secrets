@@ -1,5 +1,5 @@
 # meeshkan-hosted-secrets
-Utility python package to access Secret Manager secrets on meeshkan.io
+Utility python package to access Secret Manager secrets on [meeshkan.io](https://meeshkan.io).
 
 ```python
 from meeshkan_hosted_secrets import access_secret_string
