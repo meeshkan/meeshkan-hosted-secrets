@@ -4,5 +4,6 @@ Utility python package to access [Secret Manager](https://cloud.google.com/secre
 ```python
 from meeshkan_hosted_secrets import access_secret_string
 
-secret_value = access_secret_string("MY_SECRET_NAME")
+secret_string = access_secret_string("MY_SECRET_NAME")
+secret_bytes = access_secret_bytes("ANOTHER_SECRET_NAME")
 ```
