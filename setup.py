@@ -9,7 +9,7 @@ with open(os.path.join(here, "README.md"), encoding="utf-8") as f:
 
 setup(
     name="meeshkan-hosted-secrets",
-    version="0.5",
+    version="0.6",
     description="Utility package to access Secret Manager on meeshkan.io",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -19,5 +19,5 @@ setup(
     license="MIT",
     packages=["meeshkan_hosted_secrets"],
     zip_safe=False,
-    install_requires=["google-cloud-secret-manager==0.1.1"],
+    install_requires=["google-cloud-secret-manager==1.0.0"],
 )
